@@ -22,8 +22,6 @@
   10. Flickr
   
 */
-
-
 jQuery(function($) {
   "use strict";
 
@@ -43,16 +41,10 @@ jQuery(function($) {
             $(".navbar-toggle").trigger( "click" );
         }
     });
-
-
  
 // prettyphoto
 
  $("a[data-rel^='prettyPhoto']").prettyPhoto();
- 
-    
- 
-
-
 
 });
+
